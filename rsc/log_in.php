@@ -11,6 +11,8 @@
 			$_SESSION["user_name"] = $array["user_name"];
 			$_SESSION["login"] = $array["login"];
 			$_SESSION["permission"] = $array["permission"];
+		}else{
+			echo "<script> window.location.href = 'sign_in.php'</script>";	
 		}
 		mysqli_close($db);
 		echo "<script> window.location.href = 'index.php'</script>";
