@@ -9,7 +9,7 @@ body {
 
 }
 .header{
-	height: 150px;
+	height: 215px;
 	background-color: #022e3a;
 	border-radius: 5px;
 	
@@ -22,7 +22,21 @@ body {
 	margin-top: 300px;
 }
 #logo{
-	height:85%;
+	height:65%;
 	margin-left: 10px;
-	margin-top: 15px;
+	margin-top: 30px;
+}
+#sign_in {
+	margin-left:80%;
+}
+#title {
+	vertical-align: middle;
+	text-align :center;
+	float: top;
+	color: white;
+	position: relative; 
+	top:-80px;
+}
+#nav{
+	margin-top: -52px;
 }

@@ -14,7 +14,23 @@
 				<div class="col-md-1"></div>
 				<div class="col-md-10">
 					<header class="header">
-						<img src="css/logo.png" id="logo">	
+							
+						<img src="css/logo.png" id="logo">
+						<span ><h1 id="title"> Blog's name</h1></span>
+						<ul class="nav nav-tabs" id="nav">
+							  <li class="nav-item">
+								    <a class="nav-link active" href="#">Active</a>
+								  </li>
+								  <li class="nav-item">
+								    <a class="nav-link" href="#">Link</a>
+								  </li>
+								  <li class="nav-item">
+								    <a class="nav-link" href="#">Link</a>
+								  </li>
+								  <li class="nav-item" id="sign_in">
+								    <a class="nav-link active " href="#">Sign in</a>
+								  </li>
+							</ul>
 					</header>
 				</div>
 			<div class="col-md-1"></div>
