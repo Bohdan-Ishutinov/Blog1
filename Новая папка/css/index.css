@@ -1,0 +1,30 @@
+.body_h h1 {
+	text-align: center;
+}
+.body_h h3 {
+	text-align: center;
+}
+.body_h{
+	height:700px;
+	padding-top:150px;
+	background: url(../img/body.jpg);
+	background-size: cover;
+	background-position:right bottom;
+	background-repeat: no-repeat;
+}
+.c .col-md-4{
+	background-color: #e0e0e0;
+	height: 75px;
+}
+.body_c{
+	margin-top: 50px;
+}
+.container_ul{
+	float: left;
+}
+.container_ul ul{
+	list-style-type: none;
+}
+.container_ul a{
+	color: black;
+}

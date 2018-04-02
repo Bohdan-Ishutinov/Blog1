@@ -1,0 +1,22 @@
+.header{
+	height: 100px;
+}
+body{
+	background-color: 	#f9f4ed
+}
+.nav{
+	background-color: #cddc55;
+}
+
+.nav .list{
+	margin:auto;
+}
+
+.footer{
+	height: 130px;
+	background-color: #6e707a;
+	font-family: "Comic Sans MS";
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
+}
