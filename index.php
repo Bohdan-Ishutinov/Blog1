@@ -9,22 +9,31 @@
 	<title></title>
 </head>
 <body>
-	<div class="container-fluid"></div>
-	<div class="row">
-		<div class="col-md-1"></div>
-		<div class="col-md-7" style="background-color: red; height: 200px"></div>
-		<div class="col-md-1"></div>
-		<div class="col-md-2" style="background-color: black; height: 200px"></div>
-		<div class="col-md-1"></div>
+	<div class="container-fluid">
+		<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<header class="header">
+						<img src="css/logo.png" id="logo">	
+					</header>
+				</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
+	<div class="container-fluid" id="content">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-7" style="background-color: red; height: 200px"></div>
+			<div class="col-md-1"></div>
+			<div class="col-md-2" style="background-color: black; height: 200px"></div>
+			<div class="col-md-1"></div>
+		</div>
 	</div>
 
-
-
-   <footer class="footer">
-			<div class="container">
-  				<p><a href="https://www.facebook.com/profile.php?id=100017194929576">Karbon</a></p>
-  				<p>© Copyright 2018. All rights reserved</p>
-			</div>
-		</footer>
+	<footer class="footer">
+		<div class="container">
+				<p>© Copyright 2018. All rights reserved</p>
+		</div>
+	</footer>
 </body>
 </html>
