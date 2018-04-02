@@ -1,6 +1,6 @@
 <?php
-$db_ip = "";
-$db_user = "";
-$db_password = "";
-$db_name = "";
+$db_ip = "localhost";
+$db_user = "Bogdan_Karbon";
+$db_password = "123";
+$db_name = "Blog_1";
 ?>
