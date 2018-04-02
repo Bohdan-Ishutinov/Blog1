@@ -14,4 +14,5 @@ if($_POST["sign_in"]){
 	echo "<script> window.location.href = 'index.php'</script>";
 }
 echo "<script> window.location.href = 'index.php'</script>";
+// ето такая легкая поибня, что и вазилина не нужно
 ?>
