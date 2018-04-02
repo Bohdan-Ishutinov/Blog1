@@ -9,10 +9,14 @@
 	<title></title>
 </head>
 <body>
-	<div class="col-md-1"></div>
-	<div class="col-md-10"></div>
-	<div class="col-md-1"></div>
-
+	<div class="container-fluid"></div>
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-7" style="background-color: red; height: 200px"></div>
+		<div class="col-md-1"></div>
+		<div class="col-md-2" style="background-color: black; height: 200px"></div>
+		<div class="col-md-1"></div>
+	</div>
 
 
 

@@ -1,0 +1,10 @@
+body {
+	margin-top: 300px;
+}
+.footer{
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    color: black; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
