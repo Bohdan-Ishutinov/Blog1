@@ -13,6 +13,6 @@ if($_GET["id"]){
 	}
 	mysqli_close($db);
 }else{
-echo "<script> window.location.href = 'index.php'</script>"
+echo "<script> window.location.href = 'index.php'</script>";
 }
 ?>
