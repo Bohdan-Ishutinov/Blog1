@@ -6,6 +6,8 @@ body {
     position: absolute; /* Фиксированное положение */
     left: 810px;  /* Выравнивание по центру */
     bottom: 0;
+    margin-right: 50%;
+    margin-left: 50%;
 
 }
 .header{
@@ -49,4 +51,7 @@ body {
 #inputt{
 	background-color: red;
 	margin-left: -10%;
+}
+#registration{
+	margin-left: 50%;
 }

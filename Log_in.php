@@ -36,53 +36,31 @@
 			<div class="col-md-1"></div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="row" >
-			<div class="col-xs-12 col-sm-12 col-lg-12" id="log-in" >
-						<div class="panel panel-primary">
-								<div class="panel-heading">
-									<h3 class="panel-title">Авторизация на сайте</h3>
-								</div>
-						</div>
-							<div class="col-xs-6 col-sm-6 col-md-6 login-box" id="inputt">
-								<form role="form">
-								<div class="input-group">
-									<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-									<input type="text" class="form-control" placeholder="Имя пользователя" required autofocus />
-								</div>
-								<div class="input-group">
-									<span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-									<input type="password" class="form-control" placeholder="Ваш пароль" required />
-								</div>
-							<div class="col-xs-12 col-sm-12 col-md-12" id="check_box">
-								<div class="checkbox">
-									<label>
-									<input type="checkbox" value="Remember">
-									Запомнить меня  
-									</label>
-									<p align="right"><a href="#">Забыли свой пароль?</a></p>
-								</div>
+	<div class="container" id="registration">
+		<div class="row"  >
+			<form>
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">Авторизация на сайте</h3>
+					</div>
+					</div>
+					<div class="form-group">
+					<label for="title_new">Login:<span id="necessarily">*</span></label>
+					<input type="text" class="form-control" id="input_form" name="login" required>
+					</div>
+					<div class="form-group">
+					<label for="format_new">Password:<span id="necessarily">*</span></label>
+					<input type="password" class="form-control" id="input_form" name="password" required>
+					</div>		
 
-							</div>
-
-							<p align="right"> У вас нет аккаунта? <br> <a href="#">Регистрация</a></p>
-								</form>
-							</div>
-			</div>
-		</div>
-				<div class="panel-footer">
-						<div class="row">
-							
-							<div class="col-xs-6 col-sm-6 col-md-6">
-								<button type="button" class="btn btn-labeled btn-success">
-								<span class="btn-label"><i class="glyphicon glyphicon-ok"></i></span>Войти</button>
-								<button type="button" class="btn btn-labeled btn-danger">
-								<span class="btn-label"><i class="glyphicon glyphicon-remove"></i></span>Выход</button>
-							</div>
-						</div>
+					<button type="submit" name="submit" id="baton"  class="btn btn-success">Sign up</button>
+					
 				</div>
+
+				<p align="right"> У вас нет аккаунта? <br> <a href="#">Регистрация</a></p>
+			</form>
 	</div>
-		
+
 
 
 	<footer class="footer">
